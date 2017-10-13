@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    create_puppy :erb
+    index :erb
   
   end
 end
